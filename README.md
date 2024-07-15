@@ -4,10 +4,13 @@
 
 This project is inspired by **[Text-to-SQL blog post by Pinterest](https://medium.com/pinterest-engineering/how-we-built-text-to-sql-at-pinterest-30bad30dabff)** that details their approach to integrating large language models (LLMs) with vector search technologies for enhancing database interactions. Motivated by the elegance of their solution, this project is an attempt to reproduce and explore similar capabilities, specifically designed for text to SQL generation using the AdventureWorks database.
 
-The system is configured to work with the AdventureWorks database, a complex schema that supports a wide range of queries from simple data retrieval to complex joins and aggregations. It dynamically handles any new valid questions related to the database schema, performing complex join operations between multiple tables. Furthermore, it validates SQL queries to ensure accuracy and compliance with SQL standards. Upon generating the SQL, the system can rephrase the query results into a more understandable format and visually represent data insights through interactive Plotly charts.
-
 Below is a detailed explanation of the architectural diagram included in this repository:
 
+High-level overview
+![High level](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*wDKR6-ToiX5UgsUYN41JiQ.png)
+_Source: [Pinterest Blog](https://medium.com/pinterest-engineering/how-we-built-text-to-sql-at-pinterest-30bad30dabff)_
+
+Detailed Architecture
 ![Architectural Diagram](media/architecture.png)
 
 1. **User Question Input**: The entry point where users input their natural language queries.
