@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is inspired by **[Text-to-SQL blog post by Pinterest](https://medium.com/pinterest-engineering/how-we-built-text-to-sql-at-pinterest-30bad30dabff)** that details their approach to integrating large language models (LLMs) with vector search technologies for enhancing database interactions. Motivated by their solution, this project is an attempt to reproduce similar capabilities.
+This project is inspired by **[Text-to-SQL blog post by Pinterest 📌](https://medium.com/pinterest-engineering/how-we-built-text-to-sql-at-pinterest-30bad30dabff)** that details their approach to integrating large language models (LLMs) with vector search technologies for enhancing database interactions. Motivated by their solution, this project is an attempt to reproduce similar capabilities.
 
 Below is a detailed explanation of the architectural diagram included in this repository:
 
